@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cal {
+    margin-top: 2vh;
+    height: 50vh;
+    width: 45vh;
+    background-color: rgb(55, 53, 53);
+
+
+}
+
+.textArea {
+    width: 40vh;
+    height: 7vh;
+    display: block;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.btns {
+    margin-top: 4vh;
+    margin-left: 2.5vh;
+}
+
+button {
+    padding: 2vh 2vh;
+    margin: 0.5vh;
+    width: 9vh;
+    height: auto;
+    color: white;
+    background-color: rgb(55, 53, 53);
+    border-color: rgb(55, 53, 53);
+    /* font-size: large; */
+
+}
+
+button:hover {
+    border-color: rgb(153, 232, 35);
+}
+
+.row {
+    width: 50vh;
+    height: 8vh;
+    display: flex;
+}
